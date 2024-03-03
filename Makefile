@@ -15,16 +15,16 @@ test-bank:
 	@rm ./tests/test_bank
 
 test-bank-account:
-	@g++ ./BankAccount* ./tests/test_bank_account.cpp -o test_bank_account
-	@./test_bank_account
-	@rm ./test_bank_account
+	@g++ ./BankAccount* ./tests/test_bank_account.cpp -o ./tests/test_bank_account
+	@./tests/test_bank_account
+	@rm ./tests/test_bank_account
 
 test-savings-account:
-	@g++ ./BankAccount* ./SavingsAccount* ./tests/test_savings_account.cpp -o test_savings_account
-	@./test_savings_account
-	@rm ./test_savings_account
+	@g++ ./BankAccount* ./SavingsAccount* ./tests/test_savings_account.cpp -o ./tests/test_savings_account
+	@./tests/test_savings_account
+	@rm ./tests/test_savings_account
 
 test-checkings-account:
-	@g++ ./BankAccount* ./CheckingAccount* ./tests/test_checkings_account.cpp -o test_checkings_account
-	@./test_checkings_account
-	@rm ./test_checkings_account
+	@g++ ./BankAccount* ./CheckingAccount* ./tests/test_checkings_account.cpp -o ./tests/test_checkings_account
+	@./tests/test_checkings_account
+	@rm ./tests/test_checkings_account

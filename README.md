@@ -4,6 +4,8 @@
 
 ## How To Compile & Run
 
+Navigate to the project's directory in the terminal.
+
 ### Using Make
 
 If you have `make` installed, run the listed commands to compile and run different aspects of the program.
@@ -57,20 +59,20 @@ If you have `make` installed, run the listed commands to compile and run differe
 - Test the BankAccount class functionalities:
 
   ```console
-  g++ ./BankAccount* ./tests/test_bank_account.cpp -o test_bank_account
+  g++ ./BankAccount* ./tests/test_bank_account.cpp -o ./tests/test_bank_account
   ./tests/test_bank_account
   ```
 
 - Test the SavingsAccount class functionalities:
 
   ```console
-  g++ ./BankAccount* ./SavingsAccount* ./tests/test_savings_account.cpp -o test_savings_account
+  g++ ./BankAccount* ./SavingsAccount* ./tests/test_savings_account.cpp -o ./tests/test_savings_account
   ./tests/test_savings_account
   ```
 
 - Test the CheckingsAccount class functionalities:
 
   ```console
-  g++ ./BankAccount* ./CheckingAccount* ./tests/test_checkings_account.cpp -o test_checkings_account
+  g++ ./BankAccount* ./CheckingAccount* ./tests/test_checkings_account.cpp -o ./tests/test_checkings_account
   ./tests/test_checkings_account
   ```
