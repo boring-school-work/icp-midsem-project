@@ -37,7 +37,7 @@ If you have `make` installed, run the listed commands to compile and run differe
 - Test the CheckingsAccount class functionalities:
 
   ```console
-  make test-savings-account
+  make test-checkings-account
   ```
 
 ### Manually in The Terminal
