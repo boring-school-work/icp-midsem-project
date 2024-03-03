@@ -14,25 +14,25 @@ If you have `make` installed, run the listed commands to compile and run differe
   make
   ```
 
-  - Test the Bank class functionalities:
+- Test the Bank class functionalities:
 
   ```console
   make test-bank
   ```
 
-  - Test the BankAccount class functionalities:
+- Test the BankAccount class functionalities:
 
   ```console
   make test-bank-account
   ```
 
-  - Test the SavingsAccount class functionalities:
+- Test the SavingsAccount class functionalities:
 
   ```console
   make test-savings-account
   ```
 
-  - Test the CheckingsAccount class functionalities:
+- Test the CheckingsAccount class functionalities:
 
   ```console
   make test-savings-account
@@ -47,28 +47,28 @@ If you have `make` installed, run the listed commands to compile and run differe
   ./main.out
   ```
 
-  - Test the Bank class functionalities:
+- Test the Bank class functionalities:
 
   ```console
   g++ ./Bank* ./CheckingAccount* ./SavingsAccount* ./tests/test_bank.cpp -o ./tests/test_bank
   ./tests/test_bank
   ```
 
-  - Test the BankAccount class functionalities:
+- Test the BankAccount class functionalities:
 
   ```console
   g++ ./BankAccount* ./tests/test_bank_account.cpp -o test_bank_account
   ./tests/test_bank_account
   ```
 
-  - Test the SavingsAccount class functionalities:
+- Test the SavingsAccount class functionalities:
 
   ```console
   g++ ./BankAccount* ./SavingsAccount* ./tests/test_savings_account.cpp -o test_savings_account
   ./tests/test_savings_account
   ```
 
-  - Test the CheckingsAccount class functionalities:
+- Test the CheckingsAccount class functionalities:
 
   ```console
   g++ ./BankAccount* ./CheckingAccount* ./tests/test_checkings_account.cpp -o test_checkings_account
