@@ -1,6 +1,8 @@
 # Mid Semester Project
 
-**Task:** Implement a simple banking system.
+**Task:** Implement a simple banking system. \
+**Author:** David Saah. \
+**ID:** 72522025
 
 ## How To Compile & Run
 
@@ -76,3 +78,4 @@ If you have `make` installed, run the listed commands to compile and run differe
   g++ ./BankAccount* ./CheckingAccount* ./tests/test_checkings_account.cpp -o ./tests/test_checkings_account
   ./tests/test_checkings_account
   ```
+
